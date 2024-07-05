@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="img/logo_a.ico">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/script.js"></script>
+  <title>Encriptador</title>
+</head>
+
+<body class="ini">
+  <main class="M_cont">
+    <div class="logo_cont">
+      <img src="img/Logo.png" alt="Logo alura">
+    </div>
+    <section class="sec_1">
+      <div class="cont_text">
+        <div class="TextArea_cont">
+          <textarea name="" id="input" placeholder="Ingrese el texto aquí"></textarea>
+        </div>
+        <div class="alert_cont">
+          <img src="img/exclamacion.png" alt="icono de alerta">
+          <span>Solo letras minúsculas y sin acentos</span>
+        </div>
+        <div class="btn_cont">
+          <button class="B_encriptar" id="B_encriptar">Encriptar</button>
+          <button class="B_desencriptar" id="B_desencriptar">Desencriptar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec_2" id="sec_2">
+      <div class="encriptador_cont ini" id="encriptador_cont">
+        <p class="cadena_E" id="cadena_E"></p>
+      </div>
+      <div class="con_vacio ini" id="con_vacio">
+        <div class="img_container">
+          <img src="img/guy.png" alt="chico...">
+        </div>
+        <div class="text_container">
+          <h1>Ningún cadena fue encontrado</h1>
+          <p>Digite la cadena a encriptar o desencriptar.</p>
+        </div>
+      </div>
+      <div class="con_copia" id="con_copia">
+        <button class="btn_copiar" id="btn_copiar">Copiar</button>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
